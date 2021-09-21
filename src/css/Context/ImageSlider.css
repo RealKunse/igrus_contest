@@ -1,0 +1,93 @@
+.ad_slider {
+    height: 580px;
+    visibility: visible;
+
+}
+
+.item0 {
+    background: url("../SlideBanner/ButterNOil.jpg") center top no-repeat;
+}
+
+.item1 {
+    background: url("../SlideBanner/ChuseokPresent.jpg") center top no-repeat;
+}
+
+.item2 {
+    background: url("../SlideBanner/LushAPP.jpg") center top no-repeat;
+}
+
+.item3 {
+    background: url("../SlideBanner/Notlab.jpg") center top no-repeat;
+}
+
+.item4 {
+    background: url("../SlideBanner/ScentSpray.jpg") center top no-repeat;
+}
+
+.item5 {
+    background: url("../SlideBanner/ZelushChallengers.jpg") center top no-repeat;
+}
+
+.slick-slide {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    min-width: 1180px;
+    height: 580px;
+    transition: opacity 1300ms ease 0s;
+    cursor: pointer;
+    z-index: 5;
+    opacity: 0;
+    /*display: none;*/
+}
+
+.slide-active {
+    opacity: 1;
+    display: block;
+}
+
+.slick-dot-wrap{
+    height: 580px;
+}
+
+.slick-dots {
+    display: block;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    width: 12px;
+    bottom: auto;
+    top: 36.5%;
+    left: 50%;
+    margin: 0 0 0 580px;
+    z-index: 6;
+}
+
+.slick-dots li {
+    display: inline-block;
+    position: relative;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button{
+    border:2px solid #fff;
+    width:12px;
+    height:12px;
+    border-radius:100%;
+    background:#ffffff;
+    -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -khtml-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out;
+    background:none;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0.75;
+}
+.slick-dots li.slick-active button{
+    /* background:#ffffff; */
+    background:#fff;
+    opacity: 1;
+}

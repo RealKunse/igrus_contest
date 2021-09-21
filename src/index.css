@@ -1,13 +1,119 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    display: block;
+    margin: 0;
+    font-family: 'Noto Sans KR', Malgun Gothic, "맑은 고딕", AppleGothic, Dotum, "돋움", sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #717171;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+table, th, td {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border: 0;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+caption, legend {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+fieldset, abbr, acronym {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, var {
+    font-style: normal;
+}
+
+hr {
+    display: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+a {
+    color: #717171;
+    text-decoration: none;
+    /*outline:none;*/
+}
+
+textarea, pre {
+    overflow: auto;
+}
+
+textarea {
+    outline: none;
+    color: #717171;
+    font-size: 12px;
+    font-family: "notokrR", Malgun Gothic, '맑은 고딕', Helvetica, AppleGothic, dotum, '돋움', sans-serif;
+}
+
+label {
+    cursor: pointer;
+    vertical-align: top;
+}
+
+input, select {
+    outline: none;
+    font-family: "notokrR", Malgun Gothic, '맑은 고딕', Helvetica, AppleGothic, dotum, '돋움', sans-serif;
+    color: #717171;
+}
+
+select {
+    outline: none;
+    vertical-align: top;
+    color: #717171;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}
+
+button span {
+    position: relative;
+    z-index: -1;
+}
+
+input:-webkit-autofill {
+
+    -webkit-box-shadow: 0 0 0 1000px #fff inset;
+
+}
+
