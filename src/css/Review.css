@@ -1,0 +1,48 @@
+.adpic_wideslide2 {
+    clear: both;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 80px 0 120px;
+    min-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#review {
+    position: absolute;
+    top: -160px;
+    right: 0;
+    width: 280px;
+    height: 652px;
+    background: #9b9b9b;
+    z-index: 8;
+}
+.bx-wrapper {
+    position: relative;
+    max-width:280px;
+    padding: 0;
+    zoom: 1;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+.bx-viewport {
+    width: 100%;
+    /*overflow: hidden;*/
+    position: relative;
+    height: 652px;
+}
+.bx-slider {
+    width: 1000%;
+    position: relative;
+    transition-duration: 0s;
+    transform: translate3d(-1400px, 0px, 0px);
+}
+
+.bx-slide {
+    float: left;
+    list-style: none;
+    position: relative;
+    width: 280px;
+}

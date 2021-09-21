@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EslintConfiguration">
+    <extra-options value="{ &quot;rules&quot;: { &quot;jsx-a11y/anchor-is-valid&quot;: [ &quot;error&quot;, { &quot;components&quot;: [ &quot;Link&quot; ], &quot;specialLink&quot;: [ &quot;to&quot; ] }] } }" />
+    <option name="fix-on-save" value="true" />
+  </component>
+</project>

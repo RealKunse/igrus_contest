@@ -7,9 +7,13 @@ function Context() {
     return (
         <div className={"context"}>
             <ImageSlider/>
+            <div class={'adpic_wideslide2'}>
+                <div className={"inner_wrap"}>
+                    <FloatingReview/>
 
+                </div>
+            </div>
             <Campaign/>
-            <FloatingReview/>
             <FloatingAd/>
         </div>
     );
