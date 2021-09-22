@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  font-family: "Noto Sans KR", serif, 'Malgun Gothic';
+  font-size: 14pt;
+  font-style: normal;
+  margin: 0;
+}
+
+.inner_wrap {
+  position: relative;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+* {
+  margin:0;
+  padding: 0;
+}
+
+.slider-wrap{
+  margin-top : 100px
+}
+
