@@ -1,83 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/AnimalExperiment.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Corona19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/NewGoods.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/SeptemberReview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/SoftSaltRoll.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/kakaotalk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/product/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/facebook.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/flogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/icon_new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/icon_soldout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/icon_vegan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/insta.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/naverpost.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/plus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/youtube.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Context/GoodsDisplay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Context/NewGood.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Footer/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Footer/Images/footer-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Product/HeadLine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Product/ProductTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/MainPage/Context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/MainPage/Context/Campaign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/MainPage/Context/GoodsDisplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/MainPage/Context/NewGood.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/MainPage/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Product/Context/HeadLine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Product/Context/ProductImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Product/Context/ProductTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Product/Context/SoapDB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Product/Product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Context/Campaign.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Context/Campaign.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/12193973(신희상) - 학습지5주차1차시(중간고사서술형대체과제).hwp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지3주차(1차시).hwp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지3주차(2차시).hwp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지3주차.hwp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지4주차(1차시).hwp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지4주차(2차시).hwp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Review.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Context/Review.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Header/Context/Campaign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Header/Context/FloatingAd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Header/Context/FloatingReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/MainPage/Context/FloatingReview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Header/Context/ImageSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/MainPage/Context/ImageSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,6 +122,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
