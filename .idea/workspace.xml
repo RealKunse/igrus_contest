@@ -84,4 +84,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1632279453340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632279453340" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1632279422934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632279422934" />
+  </component>
 </project>
