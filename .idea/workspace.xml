@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="" />
+    <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/12193973(신희상) - 학습지5주차1차시(중간고사서술형대체과제).hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지3주차(1차시).hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지3주차(2차시).hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지3주차.hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지4주차(1차시).hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지4주차(2차시).hwp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +23,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="RealKunse &lt;gml4009@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="0.1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,9 +117,11 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="Product Page Added (2021.09.23)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product Page Added (2021.09.23)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1632279488651">
