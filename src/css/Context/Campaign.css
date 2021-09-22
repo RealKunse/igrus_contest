@@ -1,8 +1,46 @@
 .main_wrap03 {
     display: table;
     width: 100%;
+    min-width: 1200px;
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+
+    background-color: #61dafb;
 }
+
+.main_wrap03 .left {
+    display: table-cell;
+    width: 43.57%;
+    vertical-align: top;
+}
+
+.main_wrap03 .right {
+    display: table-cell;
+    width: 56.43%;
+    vertical-align: top;
+}
+
+.main_wrap03 img {
+    width: 100%;
+}
+
+.main_wrap03 .right .right2 {
+    display: table;
+    width: 100%;
+}
+
+.main_wrap03 .right .right2 p {
+    display: table-cell;
+}
+
+.main_wrap04 .inner_wrap .img {
+    position: absolute;
+    top: -40px;
+    right: 100px;
+    width: 380px;
+    z-index: 1;
+    transition: margin 0.3s ease;
+}
+

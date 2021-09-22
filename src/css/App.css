@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   font-family: "Noto Sans KR", serif, 'Malgun Gothic';
-  font-size: 14pt;
+  font-size: 14px;
   font-style: normal;
   margin: 0;
 }
@@ -21,3 +21,20 @@
   margin-top : 100px
 }
 
+.slick-slider {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}

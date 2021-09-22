@@ -1,12 +1,12 @@
 import React from "react";
-import '../../../css/Review.css'
+import '../../../css/Context/Review.css'
 import $ from 'jquery';
 
 
 class FloatingReview extends React.Component {
     componentDidMount() {
         $(window).scroll((e) => {
-            $('#review').css('margin-top',window.scrollY /12  + 'px')
+            $('#review').css('margin-top',window.scrollY /15  + 'px')
             }
         )
     }

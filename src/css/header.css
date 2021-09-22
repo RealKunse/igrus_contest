@@ -6,6 +6,7 @@
     width: 100%;
     position: fixed;
     top: 0;
+
 }
 
 #header *:hover {
@@ -175,7 +176,7 @@
 .gnb-inner {
     width: 842px;
     margin: auto;
-    /*padding-left: 337px;*/
+    padding-left: 80px;
 }
 
 
@@ -482,4 +483,12 @@
 
 .all_brand > ul > li > ul > li > a:hover {
     color: #fff;
+}
+
+.kakao_chat {
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
 }

@@ -1,47 +1,56 @@
 import React, {useState} from "react";
 import '../../css/header.css';
+import {Link} from "react-router-dom";
 
 
 function Header() {
     const MypageMouseOn = () => {
         document.querySelector('#header .gnbwrap .gnb .nav li.mypage div').style.display = 'block';
-    }
+    };
     const MypageMouseOff = () => {
         document.querySelector('#header .gnbwrap .gnb .nav li.mypage div').style.display = 'none';
-    }
+    };
 
     const AllMenuMouseOn = () => {
         document.querySelector('li.menu01 div.all_menu').className = 'all_menu cate_over'
-    }
+    };
 
     const AllMenuMouseOff = () => {
         document.querySelector('li.menu01 div.all_menu').className = 'all_menu'
-    }
+    };
 
     const AllBrandMouseOn = () => {
         document.querySelector('li.menu02 div.all_brand').className = 'all_brand cate_over'
-    }
+    };
 
     const AllBrandMouseOff = () => {
         document.querySelector('li.menu02 div.all_brand').className = 'all_brand'
-    }
+    };
 
     const nullPage = (e) => {
-        e.preventDefault()
-        alert("미구현")
+        e.preventDefault();
+        alert("미구현");
         console.log("미구현")
-    }
+    };
+
+    const openKakaoTalkAPI = () => {
+        window.open(' https://lc-api.lunasoft.co.kr/lunachat/api-connect/@러쉬코리아/main/no_gid', 'lunachat', 'width=1024, height=800');
+        alert("어디까지나 임시로 띄우는 상담창입니다!\n진짜로 로그인하지는 마세요!");
+    };
 
     return (
         <div id={"header"}>
+            <a onClick={openKakaoTalkAPI}>
+                <img src={"images/kakaotalk.png"} className={"kakao_chat"} alt={"카카오톡"}/>
+            </a>
             <div className={"gnbwrap"}>
                 <div className={"fixed2"}>
                     <div className={"inner_wrap"}>
                         <div id={"logo"} className={" "}>
                             <h1 className={" "}>
-                                <a href={""} onClick={nullPage}>
+                                <Link to={"/"} >
                                     <img src={"images/logo.png"} alt={"lush"} title={"lush"}/>
-                                </a>
+                                </Link>
                             </h1>
                         </div>
                         <div className={"gnb"}>
@@ -88,8 +97,9 @@ function Header() {
             </div>
             <div className={"gnb-inner"}>
                 <ul className={"top_gnbmenu"}>
-                    <li className={"menu01 menu_product"} style={{marginRight: 22}}  onMouseEnter={AllMenuMouseOn} onMouseLeave={AllMenuMouseOff}>
-                        <a href={""} onClick={nullPage}>제품</a>
+                    <li className={"menu01 menu_product"} style={{marginRight: 22}} onMouseEnter={AllMenuMouseOn}
+                        onMouseLeave={AllMenuMouseOff}>
+                        <a href={"/product"}>제품</a>
                         <div className={"all_menu"}>
                             <div className={"all-category category"}>
                                 <div className={"all-category-layer category"}>
@@ -140,9 +150,9 @@ function Header() {
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        <a href={""} onClick={nullPage}>샤워</a>
+                                                        <Link to={"/product"}>샤워</Link>
                                                         <ul>
-                                                            <li><a href={""} onClick={nullPage}>솝(구현)</a></li>
+                                                            <li><Link to={"/product"}>솝(구현)</Link></li>
                                                             <li><a href={""} onClick={nullPage}>샤워 젤&젤리</a></li>
                                                             <li><a href={""} onClick={nullPage}>보디 컨디셔너</a></li>
                                                             <li><a href={""} onClick={nullPage}>샤워 밤</a></li>
@@ -243,8 +253,9 @@ function Header() {
                             </div>
                         </div>
                     </li>
-                    <li className={"menu02 menu_brand"} style={{marginRight: 40}} onMouseEnter={AllBrandMouseOn} onMouseLeave={AllBrandMouseOff}>
-                        <a href={""} >러쉬 소개</a>
+                    <li className={"menu02 menu_brand"} style={{marginRight: 40}} onMouseEnter={AllBrandMouseOn}
+                        onMouseLeave={AllBrandMouseOff}>
+                        <a href={""}>러쉬 소개</a>
                         <div className={"all_brand"}>
                             <ul>
                                 <li>
@@ -274,7 +285,7 @@ function Header() {
                             </ul>
                         </div>
                     </li>
-                    <li className={"menu03"}>
+                    <li className={"menu03"} style={{marginRight: 20}}>
                         <a href={""} onClick={nullPage}>매장 안내</a>
                     </li>
                     <li className={"menu04"} style={{marginRight: 13}}>

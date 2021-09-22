@@ -5,6 +5,8 @@ body {
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: #333;
+    letter-spacing: -0.5px;
 }
 
 code {
@@ -116,4 +118,3 @@ input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px #fff inset;
 
 }
-

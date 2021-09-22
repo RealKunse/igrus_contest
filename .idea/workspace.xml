@@ -1,7 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="" />
+    <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/AnimalExperiment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Corona19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/NewGoods.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/SeptemberReview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/SoftSaltRoll.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/kakaotalk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/skin/facebook.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/skin/flogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/skin/icon_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/skin/icon_soldout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/skin/icon_vegan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/skin/insta.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/skin/naverpost.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/skin/plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/skin/youtube.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Context/GoodsDisplay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Context/NewGood.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Footer/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Footer/Images/footer-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Product/HeadLine.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Product/ProductTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/MainPage/Context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/MainPage/Context/Campaign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/MainPage/Context/GoodsDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/MainPage/Context/NewGood.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/MainPage/MainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Product/Context/HeadLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Product/Context/ProductImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Product/Context/ProductTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Product/Context/SoapDB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Product/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Context/Campaign.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Context/Campaign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/12193973(신희상) - 학습지5주차1차시(중간고사서술형대체과제).hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지3주차(1차시).hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지3주차(2차시).hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지3주차.hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지4주차(1차시).hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Images/SlideBanner/학습지4주차(2차시).hwp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Review.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Context/Review.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Header/Context/Campaign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Header/Context/FloatingAd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Header/Context/FloatingReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/MainPage/Context/FloatingReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Header/Context/ImageSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/MainPage/Context/ImageSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +86,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,14 +113,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/Product/Context" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Ramon Kramer Shin\AppData\Roaming\npm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\igrus_contest\src\js\Product\Context" />
+      <recent name="E:\igrus_contest\src\css\Product\Images" />
+      <recent name="E:\igrus_contest\src\css\Context" />
+      <recent name="E:\igrus_contest\src\js\MainPage" />
+      <recent name="E:\igrus_contest\public\images" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -81,7 +170,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632274884982</updated>
-      <workItem from="1632274886690" duration="2306000" />
+      <workItem from="1632274886690" duration="34700000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1632279404625</created>
@@ -97,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632279489428</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2">
+      <created>1632279833617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632279833617</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,13 +205,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1632279488651">
+    <state x="724" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632308388463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632279488651" />
+    <state x="724" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632308388463" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632294799770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632294799770" />
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1632279832213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632279832213" />
+    <state x="740" y="263" key="FileChooserDialogImpl" timestamp="1632308916511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="263" key="FileChooserDialogImpl/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632308916511" />
     <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1632279713994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632279713994" />
+    <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1632288628642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="252" width="607" height="536" key="find.popup/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632288628642" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1632291999285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632291999285" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1632352467406">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632352467406" />
   </component>
 </project>

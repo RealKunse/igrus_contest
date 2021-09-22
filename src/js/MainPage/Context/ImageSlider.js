@@ -19,18 +19,18 @@ class ImageSlider extends React.Component {
         button[curSlider].className = "slbtn";
 
         if (curSlider + 1 === slider.length) {
-            slider[0].className = `item0 slick-slide slide-active`
-            button[0].className = "slbtn slick-active"
+            slider[0].className = `item0 slick-slide slide-active`;
+            button[0].className = "slbtn slick-active";
             this.setState({curSlider: 0});
             console.log("if", curSlider)
         } else {
-            slider[curSlider + 1].className = `item${curSlider + 1} slick-slide slide-active`
-            button[curSlider + 1].className = "slbtn slick-active"
+            slider[curSlider + 1].className = `item${curSlider + 1} slick-slide slide-active`;
+            button[curSlider + 1].className = "slbtn slick-active";
             this.setState({curSlider: curSlider + 1});
             console.log("else", curSlider)
 
         }
-    }
+    };
 
     onClickSlider = (event) => {
         if (!isNaN(event.target.parentElement.id.charAt(9))) {
@@ -38,16 +38,16 @@ class ImageSlider extends React.Component {
             const curSlider = this.state.curSlider;
             const button = this.state.button;
 
-            const num = parseInt(event.target.parentElement.id.charAt(9))
+            const num = parseInt(event.target.parentElement.id.charAt(9));
 
             slider[curSlider].className = `item${curSlider} slick-slide`;
             button[curSlider].className = "slbtn";
 
-            this.setState({curSlider: num})
-            slider[num].className = `item${num} slick-slide slide-active`
+            this.setState({curSlider: num});
+            slider[num].className = `item${num} slick-slide slide-active`;
             button[num].className = "slbtn slick-active"
         }
-    }
+    };
 
 
     componentDidMount() {
@@ -55,7 +55,7 @@ class ImageSlider extends React.Component {
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        clearInterval(this.interval)
+        clearInterval(this.interval);
         this.interval = setInterval(this.changeSlider, 5000)
     }
 

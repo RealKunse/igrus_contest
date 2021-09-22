@@ -1,0 +1,31 @@
+.sub_visual {
+    text-align: center;
+    color: #fff;
+}
+
+
+#sp_bkground {
+    height: 500px;
+    min-width: 1180px;
+    background: url('./Images/Banner.jpg') no-repeat 50% 0;
+}
+.sub_visual .subv_txt01 {
+    text-align: center;
+    color: #fff;
+    font-size: 66px;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    text-indent: 0.5em;
+    padding-top : 186px;
+}
+
+.sub_visual .subv_txt02 {
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-indent: 0.2em;
+}
+.view .goods-list .align .choice div {
+    float: left;
+    margin: 0  0 0;
+}
