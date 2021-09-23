@@ -16,6 +16,7 @@ class ProductTable extends React.Component {
             SortList: document.getElementsByClassName('active-result'),
             curSort: 0,
             dataset: '',
+            isAll: props.isAll ? true : false,
             CurSortList: [],
             popularList: [],
             price_asc: [],
@@ -41,13 +42,26 @@ class ProductTable extends React.Component {
                 break
             }
         }
-        array = array.map(t => {return t[1]});
+        array = array.map(t => {
+            return t[1]
+        });
         console.log(array);
         return array;
     };
 
-    componentDidMount() {
+    SetIsAll = (e) => {
+        for (let i = 0; i < 2; i++) {
+            document.getElementsByClassName('lower-category')[0].children[i].children[0].children[0].className=  '';
+        }
+        if (e.target.innerText !== '전체(16)') {
+            this.setState({isAll: false})
+        } else {
+            this.setState({isAll: true})
+        }
+        e.target.className = 'lc_selected';
+    }
 
+    componentDidMount() {
         let popularList = [];
         let priceList = [];
         let reviewList = [];
@@ -67,6 +81,12 @@ class ProductTable extends React.Component {
             dateList: this.bubbleSort(dateList),
             CurSortList: PrdList
         });
+
+        if(!this.state.isAll){
+            document.getElementsByClassName('lower-category')[0].children[0].children[0].children[0].className = 'lc_selected';
+        } else {
+            document.getElementsByClassName('lower-category')[0].children[1].children[0].children[0].className = 'lc_selected';
+        }
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
@@ -157,12 +177,12 @@ class ProductTable extends React.Component {
                         <ul className={'lower-category'}>
                             <li>
                                 <span>
-                                    <a>전체(16)</a>
+                                    <a onClick={this.SetIsAll}>전체(16)</a>
                                 </span>
                             </li>
                             <li>
                                 <span>
-                                    <a>솝(16)</a>
+                                    <a onClick={this.SetIsAll}>솝(16)</a>
                                </span>
                             </li>
                         </ul>
@@ -171,7 +191,7 @@ class ProductTable extends React.Component {
                                 <div className={'list'}>
                                     <ul className={'prdList'}>
                                         {this.state.CurSortList.map(t => {
-                                            return <ProductImage id={t}/>
+                                            return <ProductImage key={t} id={t}/>
                                         })}
 
 

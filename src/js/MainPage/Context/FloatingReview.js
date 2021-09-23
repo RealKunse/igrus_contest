@@ -24,7 +24,7 @@ class FloatingReview extends React.Component {
                                 <img src={"images/ReviewImages/CatastrophyCosmetic.jpg"}/>
                             </div>
                             <div className={'bx-slide'}>
-                                <img src={"images/ReviewImages/DirtySpray.jpg"}/>
+                                <img src={"images/ReviewImages/Dirty.jpg"}/>
                             </div>
                             <div className={'bx-slide'}>
                                 <img src={"images/ReviewImages/Sleepy.jpg"}/>

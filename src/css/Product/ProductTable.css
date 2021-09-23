@@ -143,7 +143,7 @@
 .chosen-container .chosen-drop {
     position: absolute;
     top: 100%;
-    z-index: 1010;
+    z-index: 10;
     width: 100%;
     border: 1px solid #ccc;
     border-top: 0;
@@ -176,7 +176,7 @@
     text-decoration: none;
     white-space: nowrap;
     line-height: 27px;
-    margin: 0 !important;
+    width:100px
 }
 
 .chosen-container-single .chosen-single div {
@@ -191,10 +191,12 @@
 .chosen-container-single .chosen-single span {
     display: block;
     overflow: hidden;
-    margin-right: 26px;
+    margin-right: 15px;
+    width:40px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-weight: 500;
+    /*font-weight: 700;*/
+    letter-spacing: -1px;
     color: #444;
     text-align: left;
 }
@@ -226,7 +228,7 @@
     position: absolute;
     top: 100%;
     /*left: -9999px;*/
-    z-index: 1010;
+    z-index: 10;
     width: inherit;
     border: 1px solid #ccc;
     border-top: 0;
@@ -240,6 +242,8 @@
     height: auto;
     margin: 0;
     padding: 0;
+    font-weight: bold;
+    text-align: left;
 }
 
 .chosen-container .chosen-results li {
@@ -282,7 +286,9 @@
     color: #8f8f8f;
 }
 
-
+.cg-main .lower-category li span a.lc_selected,  .cg-main .lower-category li span a:hover{
+    color: black;
+}
 
 /*Product Image*/
 
@@ -343,4 +349,89 @@
     width: 100%;
     /* height: 100%; */
     /* text-align: center; */
+}
+
+.item-display .list ul.prdList li .prdinfo {
+    position: relative;
+    display: block;
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+
+.item-display .list ul.prdList li .conditions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.item-display .list ul.prdList li .hot {
+    vertical-align: top;
+}
+.item-display .list ul.prdList li .hot img {
+    padding: 2px;
+    vertical-align: top;
+}
+
+.item-display .list ul.prdList li .txt {
+    display: block;
+    padding: 0 0 0 0;
+    color: #1e1e1e;
+    text-align: center;
+    line-height: 20px;
+}
+.item-display .list ul.prdList li .txt a {
+    display: block;
+    margin: 0;
+    text-decoration: none;
+}
+.item-display .list ul.prdList li .txt .prdName {
+    display: block;
+    padding: 0;
+    color: #333;
+    line-height: 22px;
+    font-size: 16px;
+    max-height: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.item-display .list ul.prdList li .txt .shortdesc {
+    display: block;
+    padding: 0;
+    color: #8f8f8f;
+    line-height: 20px;
+    max-height: 20px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.item-display .list ul.prdList li .price {
+    display: block;
+    line-height: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+    padding: 0;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+}
+
+.item-display .list ul.prdList li .price .cost strong {
+    font-weight: 700;
+}
+
+#hoverfloat {
+    position: relative;
+    top:42px;
+    left:22px;
+    width: 28px;
+    z-index: 1;
+}
+
+#hoverfloat img {
+    margin:5px;
+    cursor: pointer;
 }

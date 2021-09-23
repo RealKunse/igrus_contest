@@ -1,6 +1,6 @@
 import './css/App.css';
 import {Route} from "react-router-dom";
-import {Product, MainPage} from "./js/pages";
+import {Product, MainPage,Detail} from "./js/pages";
 
 import React from "react";
 
@@ -11,6 +11,7 @@ function App() {
 
             <Route exact path={'/'} component={MainPage}/>
             <Route path={'/product'} component={Product}/>
+            <Route path={'/detail'} component={Detail}/>
         </div>
     );
 }

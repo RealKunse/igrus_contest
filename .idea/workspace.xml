@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="" />
+    <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/js/Details/Details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Product/ProductTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Product/ProductTable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/MainPage/Context/FloatingReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/MainPage/Context/FloatingReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Product/Context/ProductImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Product/Context/ProductImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Product/Context/ProductTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Product/Context/ProductTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Product/Context/SoapDB.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Product/Context/SoapDB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632279833617</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1632354564107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632354564107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,29 +158,39 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="724" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632308388463">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2644" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632412634252">
+      <screen x="1920" y="-123" width="1920" height="1160" />
     </state>
     <state x="724" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632308388463" />
+    <state x="2644" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-123.1920.1160@1920.-123.1920.1160" timestamp="1632412634252" />
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632294799770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632294799770" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1632279832213">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1632355447506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632279832213" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632355447506" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1632355440025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632355440025" />
     <state x="740" y="263" key="FileChooserDialogImpl" timestamp="1632308916511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="263" key="FileChooserDialogImpl/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632308916511" />
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1632279713994">
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2" timestamp="1632355463997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632279713994" />
+    <state x="552" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632355463997" />
+    <state x="741" y="255" key="VcsDiffUtil.ChangesDialog" timestamp="1632355431266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="255" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632355431266" />
     <state x="656" y="252" width="607" height="536" key="find.popup" timestamp="1632288628642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -167,9 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632291999285" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1632352467406">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2543" y="128" width="672" height="757" key="search.everywhere.popup" timestamp="1632411756997">
+      <screen x="1920" y="-123" width="1920" height="1160" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632352467406" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-123.1920.1160@0.0.1920.1040" timestamp="1632394486168" />
+    <state x="2543" y="128" width="672" height="757" key="search.everywhere.popup/0.0.1920.1040/1920.-123.1920.1160@1920.-123.1920.1160" timestamp="1632411756997" />
   </component>
 </project>

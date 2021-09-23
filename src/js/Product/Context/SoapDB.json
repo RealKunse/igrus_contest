@@ -3,7 +3,8 @@
     "name": "허니 아이 워시드 더 키즈",
     "description": [
       "솝",
-      "달콤한꿀이뚝뚝"
+      "달콤한꿀이뚝뚝",
+      "구현이완료됐어요"
     ],
     "price": 9000,
     "vegan": false,
@@ -11,7 +12,8 @@
     "soldout": false,
     "popular": 4,
     "review": 0,
-    "date": 12
+    "date": 12,
+    "real": true
   },
   "1": {
     "name": "레몬 제스트",

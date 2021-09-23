@@ -1,10 +1,18 @@
-body {
-    display: block;
-    margin: 0;
+html {
     font-family: 'Noto Sans KR', Malgun Gothic, "맑은 고딕", AppleGothic, Dotum, "돋움", sans-serif;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Noto Sans KR";
+}
+
+body {
+    display: block;
+    margin: 0;
     color: #333;
     letter-spacing: -0.5px;
 }
@@ -76,7 +84,7 @@ textarea {
     outline: none;
     color: #717171;
     font-size: 12px;
-    font-family: "notokrR", Malgun Gothic, '맑은 고딕', Helvetica, AppleGothic, dotum, '돋움', sans-serif;
+    font-family: "Noto Sans KR", Malgun Gothic, '맑은 고딕', Helvetica, AppleGothic, dotum, '돋움', sans-serif;
 }
 
 label {
@@ -86,7 +94,7 @@ label {
 
 input, select {
     outline: none;
-    font-family: "notokrR", Malgun Gothic, '맑은 고딕', Helvetica, AppleGothic, dotum, '돋움', sans-serif;
+    font-family: "Noto Sans KR", Malgun Gothic, '맑은 고딕', Helvetica, AppleGothic, dotum, '돋움', sans-serif;
     color: #717171;
 }
 
