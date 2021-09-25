@@ -1,6 +1,7 @@
 import React from "react";
 import '../../../css/Product/ProductTable.css';
-import SoapDB from "./SoapDB"
+import '../../../css/Context/ProductImage.css'
+import SoapDB from "../../Product/Context/SoapDB"
 import {Link} from "react-router-dom";
 
 class ProductImage extends React.Component {
@@ -27,13 +28,13 @@ class ProductImage extends React.Component {
         this.setState({isHover: false})
     };
 
-    HeartOnClick = () => {
-        alert('로그인하셔야 본 서비스를 이용하실 수 있습니다.\n(근데 로그인을 미구현)')
-    };
-
-    CartOnClick = () => {
-        alert('로그인하셔야 본 서비스를 이용하실 수 있습니다.\n(근데 로그인을 미구현)')
-    };
+    // HeartOnClick = () => {
+    //     alert('로그인하셔야 본 서비스를 이용하실 수 있습니다.\n(근데 로그인을 미구현)')
+    // };
+    //
+    // CartOnClick = () => {
+    //     alert('로그인하셔야 본 서비스를 이용하실 수 있습니다.\n(근데 로그인을 미구현)')
+    // };
 
     NullPage = () => {
         if (!SoapDB[this.props.id]['real']) {
@@ -43,7 +44,7 @@ class ProductImage extends React.Component {
 
     render() {
         return (
-            <li onMouseEnter={this.mouseEntered} onMouseLeave={this.mouseLeaved} onClick={this.NullPage} style={{width: '25%'}}>
+            <li onMouseEnter={this.mouseEntered} onMouseLeave={this.mouseLeaved} onClick={this.NullPage} style={{width: '280px'}}>
                 <div className={'space'}>
                     <div className={"box"}>
                         <div className={"thumbnail"}>
@@ -54,10 +55,10 @@ class ProductImage extends React.Component {
                                          alt={SoapDB[this.props.id]['name']}/>
                                 </span>
                             </Link>
-                            {this.state.isHover ? <div id={"hoverfloat"}>
-                                <img src={'images/skin/btn_wish.png'} alt={'찜하기'} onClick={this.HeartOnClick}/>
-                                <img src={'images/skin/btn_cart.png'} alt={'장바구니'} onClick={this.CartOnClick}/>
-                            </div> : null}
+                            {/*{this.state.isHover ? <div id={"hoverfloat"}>*/}
+                            {/*    <img src={'images/skin/btn_wish.png'} alt={'찜하기'} onClick={this.HeartOnClick}/>*/}
+                            {/*    <img src={'images/skin/btn_cart.png'} alt={'장바구니'} onClick={this.CartOnClick}/>*/}
+                            {/*</div> : null}*/}
                         </div>
                         <div className={"prdinfo"}>
                             <div className={'conditions'}>

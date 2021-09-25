@@ -1,4 +1,6 @@
-
+.adpic_wideslide2 .inner_wrap {
+    height: 460px;
+}
 
 .adpic_wideslide2 .display_list{
     padding-right: 280px;
@@ -21,4 +23,19 @@
     font-size: 30pt;
     margin: 0 0 25px 0;
     text-align: left;
+}
+
+.bestseller_bxslider {
+    width: 2000%;
+    position: relative;
+    transition-duration: 0.5s;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.bx-wrapper_ > .bx-viewport {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+    height: 390px;
 }

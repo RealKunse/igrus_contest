@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 class NewGood extends React.Component {
     componentDidMount() {
         $(window).scroll((e) => {
-                $('.main_wrap04 p.img').css('margin-top',window.scrollY / -15  + 'px')
+                $('.main_wrap04 p.img').css('margin-top',window.scrollY / -30  + 'px')
             }
         )
     }

@@ -29,15 +29,23 @@
 }
 .bx-viewport {
     width: 100%;
-    overflow: hidden;
+    overflow-x: scroll;
     position: relative;
     height: 652px;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
+
+.bx-viewport::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
 .bx-slider {
-    width: 6000%;
+    width: 1000%;
     position: relative;
     transition-duration: 0s;
-    transform: translate3d(-1400px, 0px, 0px);
+    transform: translate3d(-280px, 0px, 0px);
+    cursor: pointer;
 }
 
 .bx-slide {

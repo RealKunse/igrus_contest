@@ -1,0 +1,83 @@
+.bestseller_bxslider li{
+    float: left;
+    list-style: none;
+    position: relative;
+    width: 280px;
+    margin-right: 20px;
+}
+
+.adpic_wideslide2 .space {
+    display: block;
+    position: relative;
+    padding: 0 5px 40px 5px;
+}
+
+.adpic_wideslide2 .box {
+    display: block;
+    position: relative;
+}
+
+.adpic_wideslide2 .txt a {
+    display: block;
+    margin: 0;
+    text-decoration: none;
+}
+
+.adpic_wideslide2 .txt .prdName {
+    display: block;
+    padding: 0;
+    color: #333;
+    line-height: 22px;
+    font-size: 18px;
+    max-height: 40px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.adpic_wideslide2 .txt .shortdesc {
+    display: block;
+    padding: 0;
+    color: #8f8f8f;
+    line-height: 20px;
+    max-height: 20px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.adpic_wideslide2 .price {
+    display: block;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 0;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+}
+
+.bx-pager{
+    display: flex;
+    justify-content: center;
+}
+
+.bx-pager-item {
+    width: 8px;
+    height: 8px;
+    margin: 1px 5px;
+    border-radius: 10px;
+    color: #1e1e1e;
+    cursor: pointer;
+    border: black solid 2px;
+    transition: ease 0.1s;
+}
+
+.bx-pager-item :after {
+    width: 8px;
+    height: 8px;
+    margin: 1px 5px;
+    border-radius: 10px;
+    color: #1e1e1e;
+    background-color: #1e1e1e;
+    border: black solid 2px;
+}
