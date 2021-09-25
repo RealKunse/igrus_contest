@@ -29,12 +29,12 @@
 }
 .bx-viewport {
     width: 100%;
-    /*overflow: hidden;*/
+    overflow: hidden;
     position: relative;
     height: 652px;
 }
 .bx-slider {
-    width: 1000%;
+    width: 6000%;
     position: relative;
     transition-duration: 0s;
     transform: translate3d(-1400px, 0px, 0px);
@@ -45,4 +45,39 @@
     list-style: none;
     position: relative;
     width: 280px;
+}
+
+.bx-control-box{
+    /*position: relative;*/
+}
+
+.bx-wrapper .bx-control-box a {
+    position: absolute;
+    top: auto;
+    right:10px;
+    bottom: 15px;
+    outline: 0;
+    width: 11px;
+    height: 15px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.bx-wrapper .bx-control-box a.bx-prev{
+    right:65px;
+}
+
+.bx-wrapper .bx-control-box > span{
+    position: absolute;
+    top: auto;
+    right:22px;
+    bottom: 18px;
+    line-height: 18px;
+    width: 40px;
+    height: 15px;
+    z-index: 99;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -1px;
 }
