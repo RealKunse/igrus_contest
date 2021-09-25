@@ -1,0 +1,17 @@
+#container.goodsv_container {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#container.goodsv_container #content {
+    display: block;
+    width: 100%;
+}
+
+.goods-view {
+    display: block;
+    width: 1180px;
+    margin: 0 auto;
+}
