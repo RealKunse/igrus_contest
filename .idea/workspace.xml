@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/Details/AddReview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Details/Delivery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/check-off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/check-on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/check-ov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/ico_camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/AddReview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/Delivery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/RealtedGoods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/ReviewPart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Details/Article.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Details/Article.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Details/Details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Details/Details.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Details/Navi.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Details/Navi.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Details/Properties.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Details/Properties.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Product/ProductTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Product/ProductTable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Details/Context/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Context/Article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Details/Context/Navi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Context/Navi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Details/Context/Properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Context/Properties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Details/AddReview.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Details/AddReview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Details/Context/AddReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Context/AddReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Details/Context/Goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Context/Goods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Details/Context/ReviewPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Context/ReviewPart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Details/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Product/Context/ProductImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Product/Context/ProductImage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +121,7 @@
       <workItem from="1632274886690" duration="34700000" />
       <workItem from="1632572233237" duration="29000" />
       <workItem from="1632574986845" duration="7208000" />
-      <workItem from="1632614037503" duration="38154000" />
+      <workItem from="1632614037503" duration="41216000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1632279404625</created>
@@ -208,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632640895929</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="어지간한거 다 완료">
+      <created>1632655257453</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1632655257453</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +225,7 @@
     <MESSAGE value="Main Context Review" />
     <MESSAGE value="Main Fixed" />
     <MESSAGE value="Adding Detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Detail" />
+    <MESSAGE value="어지간한거 다 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="어지간한거 다 완료" />
   </component>
 </project>

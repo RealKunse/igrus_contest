@@ -22,6 +22,10 @@ class ReviewPart extends React.Component {
         return !!this.props.highlight;
     }
 
+    makeAlert = () => {
+        alert('로그인 하시기 바랍니다. (미구현)')
+    }
+
     render() {
         return (
             <div>
@@ -44,7 +48,7 @@ class ReviewPart extends React.Component {
                             </a>
                             <span className="like">추천: <span className="js-pr-recommend-cnt">0</span></span>
                             <span><button className="like-button js-pr-btn-recommend"
-                                          type="button">추천하기</button></span>
+                                          type="button" onClick={this.makeAlert}>추천하기</button></span>
                         </div>
                     </div>
                 </div> : <div className={'article pr-row'}>
@@ -66,7 +70,7 @@ class ReviewPart extends React.Component {
                             </a>
                             <span className="like">추천: <span className="js-pr-recommend-cnt">0</span></span>
                             <span><button className="like-button js-pr-btn-recommend"
-                                          type="button">추천하기</button></span>
+                                          type="button" onClick={this.makeAlert}>추천하기</button></span>
                         </div>
                     </div>
                 </div>

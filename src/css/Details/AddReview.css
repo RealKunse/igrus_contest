@@ -280,3 +280,30 @@ dl:after, dt:after, dd:after {
     height: 24px;
     line-height: 22px;
 }
+
+.clear-both {
+    clear: both;
+    margin-bottom:100px;
+}
+.pagination {
+    padding: 20px 0 0;
+    text-align: center;
+}
+.pagination .active {
+    border: 1px solid #fff;
+    text-decoration: underline;
+    color: #3e3d3c;
+}
+
+.pagination li {
+    display: inline-block;
+    border: 1px solid #fff;
+    margin: 0 2px;
+}
+
+.pagination li a, .pagination li span {
+    height: 21px;
+    padding: 4px 10px 1px;
+    text-align: center;
+    display: block;
+}

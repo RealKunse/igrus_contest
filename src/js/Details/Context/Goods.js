@@ -55,6 +55,11 @@ class Goods extends React.Component {
         e.preventDefault();
         alert(param);
     }
+    makeCopy = () => {
+        const text = document.getElementsByClassName('field-b')[0];
+        text.select();
+        document.execCommand('copy')
+    }
 
     render() {
         return (
@@ -127,7 +132,8 @@ class Goods extends React.Component {
                                             <input type={"text"}
                                                    value={"https://lush.co.kr:443/goods/goods_view.php?goodsNo=5"}
                                                    className={"text field-b"}/>
-                                            <button type="button" className="gd_clipboard skinbtn point2" title="상품주소">
+                                            <button type="button" className="gd_clipboard skinbtn point2"
+                                                    onClick={this.makeCopy} title="상품주소">
                                                 <em className="h28">URL복사</em>
                                             </button>
                                         </div>
@@ -258,10 +264,16 @@ class Goods extends React.Component {
                         </div>
                         <div className={'easy-payment'}>
                             <div id={'naverpay'}>
-                                <div className={'npay_text'} />
-                                <div className={'npay_btn btn_green'} onClick={(e) => {this.textEvHandler('결제 안대염',e)}}/>
-                                <div className={'npay_btn wish_btn'} onClick={(e) => {this.textEvHandler('찜도 안대염',e)}}/>
-                                <div className={'npay_btn talk_btn'} onClick={(e) => {this.textEvHandler('톡도 안대염',e)}}/>
+                                <div className={'npay_text'}/>
+                                <div className={'npay_btn btn_green'} onClick={(e) => {
+                                    this.textEvHandler('결제 안대염', e)
+                                }}/>
+                                <div className={'npay_btn wish_btn'} onClick={(e) => {
+                                    this.textEvHandler('찜도 안대염', e)
+                                }}/>
+                                <div className={'npay_btn talk_btn'} onClick={(e) => {
+                                    this.textEvHandler('톡도 안대염', e)
+                                }}/>
                             </div>
                         </div>
                     </div>

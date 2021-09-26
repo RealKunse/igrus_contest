@@ -7,6 +7,8 @@ class addReview extends React.Component {
         super(props);
         this.state= {
             isChecked:false,
+            curPage:1,
+
         }
     }
 
@@ -27,6 +29,18 @@ class addReview extends React.Component {
         }
 
         alert('로그인이 필요합니다.')
+    }
+
+    setPageHandle = (param, e) => {
+        e.preventDefault();
+        const query = document.querySelectorAll('.pagination > li');
+
+        for(let i = 0; i < query.length; i++){
+            query[i].classList.remove('active')
+        }
+        this.setState({curPage:param})
+        document.querySelectorAll('.pagination > li')[param-1].classList.add('active')
+
     }
 
     render() {
@@ -143,7 +157,6 @@ class addReview extends React.Component {
                                                 <input type="file" className="image-upload"/></div>
                                             <div className="js-pr-attach-list">
                                             </div>
-                                            <div className="clear-both"/>
                                         </div>
                                         <div className="buttons">
                                             <button onClick={this.requireLogin} className="button" type="submit">후기작성</button>
@@ -155,8 +168,9 @@ class addReview extends React.Component {
                         </div>
                         <div className={'plusreview-container-list'}>
                             <div className={'title-container'}/>
-                            <div className={'pr-list'}>
-                                <ReviewPart txt={'리뷰가 너무 많아 적당히 씁니다'} rat={5} highlight/>
+                            {this.state.curPage === 1 ?
+                                <div className={'pr-list'}>
+                                <ReviewPart txt={'리뷰가 너무 많아 적당히 씁니다 -신희상-'} rat={5} highlight/>
                                 <ReviewPart txt={'향은 좋고 피부도 좋아지는 느낌이에요'} rat={3}/>
                                 <ReviewPart txt={ '색이 원래 이런가요?' +
                                 '비누도 물러서 뭔가 떨어져나오고 칙칙하게 갈변된 색이 와서 당황스럽네요 이름처럼 ...' +
@@ -170,6 +184,32 @@ class addReview extends React.Component {
                                 <ReviewPart txt={'배송도 빠르고 실제로 받아보니 냄새가 좋네요\n화장실 방향제겸 쓸려고 했는데 괜찮은것 같습니다'} rat={5} />
                                 <ReviewPart txt={'선물용으로 구입했어요!!'} rat={5} highlight/>
                                 <ReviewPart txt={'달콤달콤 냄새좋아요~ 근데 생각보다 사이즈는 작아요 ㅋㅋㅋ'} rat={5} />
+                            </div> :
+                                <div className={'pr-list'}>
+                                    <ReviewPart txt={'매번 씻는건 러쉬! 정말 향기 에반해요 골라쓰는 재미'} rat={5} highlight/>
+                                    <ReviewPart txt={'향이 너무 좋아요. 매장에서 구입해서 써보고 다시 구입한건데 잘못 주문한건지 매장제픔보다 두께가 얊아서 잠시 당황했어요. 크크'} rat={3}/>
+                                    <ReviewPart txt={ '너무 건조해져요 피부유분기  다 뺏긴 느낌 다시는 안 살것같아요.'} rat={1} highlight/>
+                                    <ReviewPart txt={'매번쓰던거라 잘쓰고있어요'} rat={4}/>
+                                    <ReviewPart txt={'늘 사용하는 제품이에요~빠른 하루만에 배송 감사드립니다^^'} rat={5} highlight/>
+                                    <ReviewPart txt={'감사합니다 잘입을게요'} rat={4}/>
+                                    <ReviewPart txt={'냄세가 짱 좋아요~~친구한테 사줬는데 아주 좋아하네요♥'} rat={5} highlight/>
+                                    <ReviewPart txt={'향 개쥬아용.선물 예정 향 개쥬아용.선물 예정'} rat={5} />
+                                    <ReviewPart txt={'좋습니다~~감사합니다. ^^'} rat={5} highlight/>
+                                    <ReviewPart txt={'향이 진짜 좋아요 만족하며 쓰고 있습니다'} rat={5} />
+
+                                </div>}
+
+                            <div className={'clear-both'}>
+                                <nav style={{textAlign:'center'}}>
+                                    <ul className={'pagination'}>
+                                        <li className={'active'} onClick={e => this.setPageHandle(1,e)}>
+                                            <span>1</span>
+                                        </li>
+                                        <li onClick={e => this.setPageHandle(2,e)}>
+                                            <span>2</span>
+                                        </li>
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
                     </div>
