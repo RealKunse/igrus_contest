@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/igrus_contest/static/css/main.2fee3d81.chunk.css",
+    "main.css": "/igrus_contest/static/css/main.a2b00762.chunk.css",
     "main.js": "/igrus_contest/static/js/main.cc373669.chunk.js",
     "main.js.map": "/igrus_contest/static/js/main.cc373669.chunk.js.map",
     "runtime-main.js": "/igrus_contest/static/js/runtime-main.df1b51fb.js",
@@ -10,7 +10,7 @@
     "static/js/3.bb8d61b6.chunk.js": "/igrus_contest/static/js/3.bb8d61b6.chunk.js",
     "static/js/3.bb8d61b6.chunk.js.map": "/igrus_contest/static/js/3.bb8d61b6.chunk.js.map",
     "index.html": "/igrus_contest/index.html",
-    "static/css/main.2fee3d81.chunk.css.map": "/igrus_contest/static/css/main.2fee3d81.chunk.css.map",
+    "static/css/main.a2b00762.chunk.css.map": "/igrus_contest/static/css/main.a2b00762.chunk.css.map",
     "static/js/2.bf0a2d36.chunk.js.LICENSE.txt": "/igrus_contest/static/js/2.bf0a2d36.chunk.js.LICENSE.txt",
     "static/media/HeadLine.css": "/igrus_contest/static/media/Banner.9f8d852b.jpg",
     "static/media/ImageSlider.css": "/igrus_contest/static/media/ZelushChallengers.fa522b6a.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.df1b51fb.js",
     "static/js/2.bf0a2d36.chunk.js",
-    "static/css/main.2fee3d81.chunk.css",
+    "static/css/main.a2b00762.chunk.css",
     "static/js/main.cc373669.chunk.js"
   ]
 }
