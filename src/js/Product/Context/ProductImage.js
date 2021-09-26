@@ -15,9 +15,6 @@ class ProductImage extends React.Component {
         }
     }
 
-    componentDidMount() {
-
-    };
 
     mouseEntered = () => {
         this.setState({isHover: true})
@@ -44,7 +41,12 @@ class ProductImage extends React.Component {
     render() {
         return (
             <li onMouseEnter={this.mouseEntered} onMouseLeave={this.mouseLeaved} onClick={this.NullPage} style={{width: '25%'}}>
+
                 <div className={'space'}>
+                    <div className={"hoverfloat"}>
+                        <img src={'images/skin/btn_wish.png'} alt={'찜하기'} onClick={this.HeartOnClick}/>
+                        <img src={'images/skin/btn_cart.png'} alt={'장바구니'} onClick={this.CartOnClick}/>
+                    </div>
                     <div className={"box"}>
                         <div className={"thumbnail"}>
 
@@ -54,10 +56,7 @@ class ProductImage extends React.Component {
                                          alt={SoapDB[this.props.id]['name']}/>
                                 </span>
                             </Link>
-                            {this.state.isHover ? <div id={"hoverfloat"}>
-                                <img src={'images/skin/btn_wish.png'} alt={'찜하기'} onClick={this.HeartOnClick}/>
-                                <img src={'images/skin/btn_cart.png'} alt={'장바구니'} onClick={this.CartOnClick}/>
-                            </div> : null}
+
                         </div>
                         <div className={"prdinfo"}>
                             <div className={'conditions'}>

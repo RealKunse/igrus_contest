@@ -260,6 +260,7 @@
 
 .cg-main .lower-category li {
     display: inline-block;
+    position: relative;
     width: auto;
     padding: 0;
     text-align: center;
@@ -313,7 +314,7 @@
     vertical-align: top;
 }
 
-.item-display .list ul.prdList li .space {
+li .space {
     display: block;
     position: relative;
     padding: 0 5px 30px 5px;
@@ -386,7 +387,7 @@
     margin: 0;
     text-decoration: none;
 }
-.item-display .list ul.prdList li .txt .prdName {
+li .txt .prdName {
     display: block;
     padding: 0;
     color: #333;
@@ -397,7 +398,7 @@
     overflow: hidden;
 }
 
-.item-display .list ul.prdList li .txt .shortdesc {
+li .txt .shortdesc {
     display: block;
     padding: 0;
     color: #8f8f8f;
@@ -408,7 +409,7 @@
     overflow: hidden;
 }
 
-.item-display .list ul.prdList li .price {
+li .price {
     display: block;
     line-height: 30px;
     margin-top: 10px;
@@ -423,15 +424,20 @@
     font-weight: 700;
 }
 
-#hoverfloat {
-    position: relative;
+.hoverfloat {
+    position: absolute;
     top:42px;
     left:22px;
-    width: 28px;
+    width: 25px;
     z-index: 1;
+    display: none;
 }
 
-#hoverfloat img {
+li:hover div.space div.hoverfloat {
+    display: block;
+}
+
+.hoverfloat img {
     margin:5px;
     cursor: pointer;
 }

@@ -1,4 +1,4 @@
-#detail .tab {
+#detail .tab , #reviews .tab, #delivery .tab{
     display: table;
     width: 100%;
     table-layout: fixed;
@@ -10,7 +10,7 @@
     overflow: initial;
 }
 
-#detail .tab a {
+#detail .tab a, #reviews .tab a ,#delivery .tab a{
     float: none;
     display: table-cell;
     position: relative;
@@ -29,7 +29,7 @@
     box-sizing: border-box;
 }
 
-#detail .tab a.on {
+#detail .tab a.on, #reviews .tab a.on, #delivery .tab a.on{
     position: relative;
     height: 45px;
     line-height: 45px;

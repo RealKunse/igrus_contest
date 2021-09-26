@@ -453,7 +453,10 @@
     z-index: 2;
     transform: translateY(-50%);
 }
-
+.faq-quest {
+    padding-left: 120px;
+    text-align: left;
+}
 .detail-section *:after, .detail-section *:before {
     box-sizing: border-box;
 }
@@ -465,3 +468,31 @@
     text-align: left;
 }
 
+.related-goods {
+    text-align: center;
+    min-width: 1180px;
+    margin-top:100px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.related-goods .rg_title {
+    display: block;
+    color: #000;
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.related-goods .rg_context {
+    display: block;
+    padding: 10px 0 30px 0;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.related-goods .flex_container {
+    display: flex;
+}

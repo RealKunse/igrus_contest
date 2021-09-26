@@ -7,6 +7,9 @@ import '../../css/Details/Navi.css';
 import '../../css/Details/Details.css'
 import PlusReview from "./Context/PlusReview";
 import Properties from "./Context/Properties";
+import AddReview from './Context/AddReview';
+import Delivery from "./Context/Delivery";
+
 class Details extends React.Component {
     render() {
         return (
@@ -27,6 +30,26 @@ class Details extends React.Component {
                                     </div>
                                 </div>
                                 <Properties/>
+                            </div>
+                            <div id={'reviews'}>
+                                <div className={'in_width_wrap'}>
+                                    <div className={'tab'}>
+                                        <a href={'#detail'} >상품상세정보</a>
+                                        <a href={'#reviews'} className={'on'}>상품후기 (497)</a>
+                                        <a href={'#delivery'} >배송/교환 및 반품안내</a>
+                                    </div>
+                                </div>
+                                <AddReview/>
+                            </div>
+                            <div id={'delivery'}>
+                                <div className={'in_width_wrap'}>
+                                    <div className={'tab'}>
+                                        <a href={'#detail'} >상품상세정보</a>
+                                        <a href={'#reviews'} >상품후기 (497)</a>
+                                        <a href={'#delivery'} className={'on'}>배송/교환 및 반품안내</a>
+                                    </div>
+                                </div>
+                                <Delivery/>
                             </div>
                         </div>
                     </div>

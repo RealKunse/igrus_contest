@@ -12,7 +12,7 @@ class Article extends React.Component {
                     <div className="article-box">
                         <div className="box-inner">
                             <p className="section-name">아티클</p>
-                            <h1 className="title">지구를 위한<br className="mb-only"/> 오늘의 욕실</h1>
+                            <h1 className="title">지구를 위한 오늘의 욕실</h1>
                             <a className="button"
                                href="https://lush.co.kr/board/view.php?page=1&amp;bdId=article&amp;sno=219">자세히
                                 보기</a>

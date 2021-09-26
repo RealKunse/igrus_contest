@@ -2,22 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/honeyiwashedthekids_re_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/honeyiwashedthekids_re_review.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Details/Article.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Details/Details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/faq-shape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/icon-lush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/npay_sp_talk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/npay_sp_zzim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/special-sp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/special-vegetarian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/star-fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/Article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Details/AddReview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Details/Delivery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/check-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/check-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/check-ov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/ico_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/AddReview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/Delivery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/RealtedGoods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/ReviewPart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Details/Article.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Details/Article.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Details/Details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Details/Details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Details/Navi.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Details/Navi.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Details/Properties.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Details/Properties.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Product/ProductTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Product/ProductTable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Details/Context/Article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Context/Article.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Details/Context/Navi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Context/Navi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Details/Context/Properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Context/Properties.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Details/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Product/Context/ProductImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Product/Context/ProductImage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -131,7 +136,7 @@
       <workItem from="1632274886690" duration="34700000" />
       <workItem from="1632572233237" duration="29000" />
       <workItem from="1632574986845" duration="7208000" />
-      <workItem from="1632614037503" duration="24104000" />
+      <workItem from="1632614037503" duration="38154000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1632279404625</created>
@@ -196,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632634281034</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding Detail">
+      <created>1632640895929</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1632640895929</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

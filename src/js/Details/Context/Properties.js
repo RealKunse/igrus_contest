@@ -1,6 +1,7 @@
 import React from "react";
 import '../../../css/Details/Properties.css'
 import Article from "./Article";
+import RealtedGoods from "./RealtedGoods";
 
 class Properties extends React.Component {
     render() {
@@ -161,7 +162,7 @@ class Properties extends React.Component {
                         <section className={'detail-section faq-section'}>
                             <div className={'inner'}>
                                 <div className={'faq-item'}>
-                                    <div className={'faq-quest'}>Q. 구매한 비누의 단면이 불규칙해요</div>
+                                    <div className={'faq-quest'}>Q. 구매한 비누의 단면이 불규칙해요.</div>
                                     <div className="faq-answer">
                                         <span className="icon-lush"/>
                                         <div className="answer-text">
@@ -176,6 +177,8 @@ class Properties extends React.Component {
                         <Article/>
                     </div>
                 </div>
+
+                <RealtedGoods/>
             </div>
         );
     }

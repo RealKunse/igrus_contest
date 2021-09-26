@@ -1,0 +1,47 @@
+.in_width_wrap .admin-msg {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-family: "Noto Sans KR", 나눔고딕, NanumGothic;
+    font-size: 9pt;
+}
+
+.in_width_wrap .admin-msg_ {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-family: "Noto Sans KR", 나눔고딕, NanumGothic;
+    font-size: 14px;
+}
+
+.in_width_wrap .admin-msg span {
+    font-family: "Noto Sans KR", 나눔고딕, NanumGothic;
+    font-size: 14px;
+}
+
+.in_width_wrap .admin-msg p span:first-child{
+    color:rgb(134,134,134);
+}
+
+.grey{
+    color:rgb(134,134,134)
+}
+
+.in_width_wrap .type-col {
+    width: 100%;
+    margin: 0 0 30px;
+}
+.in_width_wrap .type-col th {
+    height: 42px;
+    padding: 10px 10px 10px 14px;
+    background: #f9f9f9;
+    border: 1px solid #dbdbdb;
+    color: #555;
+    text-align: left;
+}
+
+.in_width_wrap .type-col td {
+    padding: 10px 10px 10px  18px;
+    border: 1px solid #dbdbdb;
+    letter-spacing: -1px;
+}
