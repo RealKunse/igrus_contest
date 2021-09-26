@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/igrus_contest/static/css/main.2fee3d81.chunk.css",
-    "main.js": "/igrus_contest/static/js/main.254ddd94.chunk.js",
-    "main.js.map": "/igrus_contest/static/js/main.254ddd94.chunk.js.map",
+    "main.js": "/igrus_contest/static/js/main.30124e69.chunk.js",
+    "main.js.map": "/igrus_contest/static/js/main.30124e69.chunk.js.map",
     "runtime-main.js": "/igrus_contest/static/js/runtime-main.df1b51fb.js",
     "runtime-main.js.map": "/igrus_contest/static/js/runtime-main.df1b51fb.js.map",
-    "static/js/2.37b95471.chunk.js": "/igrus_contest/static/js/2.37b95471.chunk.js",
-    "static/js/2.37b95471.chunk.js.map": "/igrus_contest/static/js/2.37b95471.chunk.js.map",
+    "static/js/2.bf0a2d36.chunk.js": "/igrus_contest/static/js/2.bf0a2d36.chunk.js",
+    "static/js/2.bf0a2d36.chunk.js.map": "/igrus_contest/static/js/2.bf0a2d36.chunk.js.map",
     "static/js/3.bb8d61b6.chunk.js": "/igrus_contest/static/js/3.bb8d61b6.chunk.js",
     "static/js/3.bb8d61b6.chunk.js.map": "/igrus_contest/static/js/3.bb8d61b6.chunk.js.map",
     "index.html": "/igrus_contest/index.html",
     "static/css/main.2fee3d81.chunk.css.map": "/igrus_contest/static/css/main.2fee3d81.chunk.css.map",
-    "static/js/2.37b95471.chunk.js.LICENSE.txt": "/igrus_contest/static/js/2.37b95471.chunk.js.LICENSE.txt",
+    "static/js/2.bf0a2d36.chunk.js.LICENSE.txt": "/igrus_contest/static/js/2.bf0a2d36.chunk.js.LICENSE.txt",
     "static/media/HeadLine.css": "/igrus_contest/static/media/Banner.9f8d852b.jpg",
     "static/media/ImageSlider.css": "/igrus_contest/static/media/ZelushChallengers.fa522b6a.jpg",
     "static/media/Footer.css": "/igrus_contest/static/media/footer-icons.a7b60798.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.df1b51fb.js",
-    "static/js/2.37b95471.chunk.js",
+    "static/js/2.bf0a2d36.chunk.js",
     "static/css/main.2fee3d81.chunk.css",
-    "static/js/main.254ddd94.chunk.js"
+    "static/js/main.30124e69.chunk.js"
   ]
 }
