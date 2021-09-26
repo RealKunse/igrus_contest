@@ -1,0 +1,467 @@
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.section-header {
+    padding-top: 144px;
+}
+
+.section-header .inner {
+    text-align: center;
+}
+
+.detail-section p {
+    font-size: 18px;
+}
+
+.section-header .inner .category {
+    margin-bottom: 24px;
+}
+
+.detail-section * {
+    color: #000;
+    box-sizing: border-box;
+}
+
+.detail-section h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.section-header .inner .title .title-kr {
+    margin-bottom: 16px;
+    line-height: 1.35;
+}
+
+.section-header .inner .title .title-en {
+    /*font-family: 'HelveticaNeue-Bold';*/
+    font-size: 24px;
+    line-height: 1.38;
+}
+
+.detail-section {
+    margin-bottom: 144px;
+    color: #000;
+    font-family: 'notokr', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.early-review .inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.early-review .bg-image {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 986px;
+    height: calc(100% - 1px);
+    /*overflow: scroll;*/
+    z-index: 1;
+    text-align: center;
+}
+
+.early-review .bg-image img {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    transform: translate(20%, -50px);
+
+}
+
+.multiple-topics .image-manual img, .multiple-topics .txt-manual img {
+    max-width: 100%;
+}
+
+.early-review .review-box {
+    position: absolute;
+    float: left;
+    top: 0;
+    width: 480px;
+    margin-top: 176px;
+    margin-left: 26px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.early-review .review-box .box-inner {
+    padding: 48px 48px 48px 72px;
+}
+
+.early-review .review-box .box-inner .title .stars {
+    margin-left: 10px;
+    margin-top: -5px;
+    font-size: 28px;
+    /*left:200px;*/
+    float: left;
+}
+
+.early-review .review-box .box-inner .title .stars .star-item {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-right: 9px;
+    /*background: url(../img/star-fill.png) no-repeat center / cover;*/
+}
+
+.early-review .review-box .box-inner .title {
+    margin-bottom: 24px;
+}
+
+.detail-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.early-review .review-box .box-inner .title .title-text {
+    float: left;
+    display: block;
+}
+
+.early-review .review-box .box-inner .content {
+    margin-top: 48px;
+    line-height: 32px;
+    text-align: left;
+    letter-spacing: -1px;
+}
+
+.early-review .review-box .box-inner .author {
+    display: block;
+    margin-top: 16px;
+    color: #6b6b6b;
+    text-align: left;
+}
+
+.description .text-wrap {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.description .text-wrap .desc {
+    line-height: 34px;
+}
+
+.description .text-wrap .tip {
+    margin-top: 16px;
+    color: #6b6b6b;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.description .text-wrap .tip strong {
+    margin-right: 10px;
+    color: #6b6b6b;
+    font-weight: 700;
+}
+
+.description .text-wrap .tip strong i {
+    color: #6b6b6b;
+}
+
+.description .image-wrap {
+    position: relative;
+    height: 460px;
+    margin-bottom: 48px;
+    overflow: hidden;
+}
+
+.description .image-wrap img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.ingredients .inner {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.ingredients .title-wrap {
+    margin-bottom: 40px;
+    padding-top: 74px;
+    text-align: left;
+}
+
+.ingredients .title-wrap .section-title {
+    margin-bottom: 16px;
+}
+
+.ingredients .title-wrap .desc {
+    position: relative;
+    padding-left: 11px;
+    color: #6b6b6b;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.ingredients .title-wrap .desc:before {
+    content: '*';
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 7px;
+    height: 6px;
+    transform: translateY(-50%);
+}
+
+.ingredients .image-wrap.type-01, .ingredients .image-wrap.type-03 {
+    text-align: center;
+}
+
+.ingredients .image-wrap {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50%;
+    font-size: 0;
+    transform: translateY(-50%);
+}
+
+.ingredients .image-wrap .image-item {
+    display: inline-block;
+    width: 192px;
+    text-align: center;
+    vertical-align: top;
+    margin: 20px 25px 0 20px;
+}
+
+.ingredients .image-wrap .image-item .item-thumb {
+    position: relative;
+    width: 100%;
+    height: 191px;
+    overflow: hidden;
+}
+
+.ingredients .image-wrap .image-item .item-thumb img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.ingredients .image-wrap .image-item .item-text {
+    margin-top: 16px;
+}
+
+.ingredients .image-wrap .image-item .item-text .text-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.ingredients .image-wrap .image-item .item-text .text-desc {
+    min-height: 48px;
+    margin-top: 8px;
+    color: #6b6b6b;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ingredients .ingredients-wrap {
+    max-width: 410px;
+}
+
+.ingredients .ingredients-wrap .ingredients-text:first-child {
+    margin-bottom: 24px;
+}
+
+.ingredients .ingredients-wrap .ingredients-text .name, .ingredients .ingredients-wrap .ingredients-text .value {
+    display: block;
+    color: #6b6b6b;
+    font-size: 16px;
+    line-height: 24px;
+    word-break: keep-all;
+}
+
+.ingredients .ingredients-wrap .special {
+    margin-top: 80px;
+}
+
+.ingredients .ingredients-wrap .special .special-item:first-child {
+    margin-top: 0;
+}
+
+.ingredients .ingredients-wrap .special .special-item .text {
+    display: block;
+    padding-left: 78px;
+    color: #6b6b6b;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    word-break: normal;
+    letter-spacing: -1px;
+}
+
+.ingredients .ingredients-wrap .special .special-item {
+    position: relative;
+    margin-top: 24px;
+}
+
+.is-vegetarian_before {
+    position: absolute;
+    bottom: 70px;
+    left: 6px;
+    width: 46px;
+    height: 27px;
+    background: url("../Images/skin/special-vegetarian.png") no-repeat center/cover;
+}
+
+.is-sp_before {
+    position: absolute;
+    bottom: 0;
+    left: 13px;
+    width: 32px;
+    height: 32px;
+    background: url("../Images/skin/special-sp.png") no-repeat center/cover;
+}
+
+.usage {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+
+.usage .inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.usage .bg-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 600px;
+    height: calc(100% - 1px);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.usage .bg-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: auto;
+    max-width: none;
+    transform: translate(-50%, -50%);
+}
+
+.usage .usage-box {
+    position: relative;
+    float: left;
+    width: 600px;
+    margin-top: 88px;
+    margin-left: 56px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.usage .usage-box .box-inner {
+    padding: 80px;
+    text-align: left;
+}
+
+.usage .usage-box .box-inner .title {
+    margin-bottom: 24px;
+}
+
+.usage .usage-box .box-inner .content {
+    margin-bottom: 16px;
+    color: #6b6b6b;
+    line-height: 34px;
+}
+
+.usage .usage-box .box-inner .hashtags {
+    margin-bottom: -16px;
+    font-size: 0;
+}
+
+.usage .usage-box .box-inner .hashtags * {
+    display: inline-block;
+    margin: 0 10px 16px 0;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #1ea24d;
+    color: #1ea24d;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.24px;
+}
+
+.usage .usage-box .box-inner .hashtags span {
+    border-color: transparent;
+}
+
+.faq-section .inner {
+    max-width: 854px;
+    margin: 0 auto;
+}
+
+.faq-section .faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq-question {
+    padding-left: 120px;
+    text-align: left;
+}
+
+.faq-answer {
+    position: relative;
+    margin-top: 32px !important;
+}
+
+.faq-section .faq-item .faq-answer .icon-lush {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 52px;
+    height: 52px;
+    background: url("../Images/skin/icon-lush.png") no-repeat center / cover;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.faq-section .faq-item .faq-answer .answer-text {
+    position: relative;
+    margin-left: 93px;
+    padding: 17px 27px;
+    border: 1px solid #e0e0e0;
+    border-radius: 9px;
+}
+
+.faq-section .faq-item .faq-answer .answer-text:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    width: 16px;
+    height: 20px;
+    background: url("../Images/skin/faq-shape.png") no-repeat center/ cover;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+
+.detail-section *:after, .detail-section *:before {
+    box-sizing: border-box;
+}
+
+.faq-section .faq-item .faq-answer .answer-text .text-wrap {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+    text-align: left;
+}
+

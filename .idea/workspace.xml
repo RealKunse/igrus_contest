@@ -2,50 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9661a0a0-86d4-44d5-a0d6-321952b904ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/review/0.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/review/1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/review/2.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/review/3.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/review/4.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/review/5.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/selfpreserving_92x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/sns-facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/sns-kakaostory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/sns-pinterest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/sns-twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/special-suitable_vegan_92x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/vegan_92x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/skin/vegetarian2_92x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Details/Goods.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Details/Navi.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Details/PlusReview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/gv-thumbnail-next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/gv-thumbnail-prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/icon_share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/icon_tooltip_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/icon_zzim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/layer-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/loc-hide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/npay_sp_payment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/npay_sp_text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/step.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/Goods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/Navi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/PlusReview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/honeyiwashedthekids_re_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/honeyiwashedthekids_re_review.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Details/Article.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Details/Details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/faq-shape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/icon-lush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/npay_sp_talk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/npay_sp_zzim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/special-sp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/special-vegetarian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Images/skin/star-fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Details/Context/Article.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Noto_Sans_KR.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Context/GoodsDisplay.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Context/GoodsDisplay.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Context/ProductImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Context/ProductImage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/Details/Top.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Details/Context/Top.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Details/Properties.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Details/Properties.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/Details/Context/Properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Context/Properties.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Details/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Details/Details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/MainPage/Context/FloatingReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/MainPage/Context/FloatingReview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/MainPage/Context/GoodsDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/MainPage/Context/GoodsDisplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/MainPage/Context/ProductImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/MainPage/Context/ProductImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +131,7 @@
       <workItem from="1632274886690" duration="34700000" />
       <workItem from="1632572233237" duration="29000" />
       <workItem from="1632574986845" duration="7208000" />
-      <workItem from="1632614037503" duration="17436000" />
+      <workItem from="1632614037503" duration="24104000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1632279404625</created>
@@ -217,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632575024166</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding Detail">
+      <created>1632634281034</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1632634281034</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +220,7 @@
     <MESSAGE value="Soap Page &amp; Main Page Fix" />
     <MESSAGE value="Main Context Review" />
     <MESSAGE value="Main Fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main Fixed" />
+    <MESSAGE value="Adding Detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Detail" />
   </component>
 </project>
