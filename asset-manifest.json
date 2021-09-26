@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/igrus_contest/static/css/main.2fee3d81.chunk.css",
-    "main.js": "/igrus_contest/static/js/main.06011f14.chunk.js",
-    "main.js.map": "/igrus_contest/static/js/main.06011f14.chunk.js.map",
+    "main.js": "/igrus_contest/static/js/main.bf89a3fd.chunk.js",
+    "main.js.map": "/igrus_contest/static/js/main.bf89a3fd.chunk.js.map",
     "runtime-main.js": "/igrus_contest/static/js/runtime-main.df1b51fb.js",
     "runtime-main.js.map": "/igrus_contest/static/js/runtime-main.df1b51fb.js.map",
     "static/js/2.bf0a2d36.chunk.js": "/igrus_contest/static/js/2.bf0a2d36.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.df1b51fb.js",
     "static/js/2.bf0a2d36.chunk.js",
     "static/css/main.2fee3d81.chunk.css",
-    "static/js/main.06011f14.chunk.js"
+    "static/js/main.bf89a3fd.chunk.js"
   ]
 }
