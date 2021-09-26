@@ -1,0 +1,115 @@
+.plusreview-container {
+    width: 100%;
+}
+
+.plusreview-container .title-container {
+    margin-bottom: 15px;
+}
+
+.plusreview-container .title-container .text {
+    font-size: 20px;
+    color: #222222;
+}
+
+.plusreview-container .summary_new .photoreview-container {
+    float: left;
+    width: 745px;
+    height: 190px;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+}
+
+.plusreview-container .summary_new .photoreview-container .inner {
+    position: relative;
+    padding: 27px 20px 0;
+}
+
+.plusreview-container .summary_new .photoreview-container .title {
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #000;
+ }
+
+.plusreview-container .summary_new .photoreview-container .photo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.plusreview-container .summary_new .photoreview-container .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.plusreview-container .summary_new .photoreview-container .inner .more {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.plusreview-container .summary_new .photoreview-container .inner .more:hover {
+    color: #afafaf;
+}
+
+.plusreview-container .summary_new .score-container {
+    float: right;
+    width: 428px;
+    height: 190px;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+}
+
+.plusreview-container .summary_new .score-container .inner {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.plusreview-container .summary_new .score-container .average {
+    display: table-cell;
+    width: 215px;
+    height: 188px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.plusreview-container .summary_new .score-container .average .title {
+    font-size: 18px;
+    /*font-family: 'notokrM';*/
+    color: #333;
+}
+
+.plusreview-container .summary_new .score-container .average .score {
+    font-size: 45px;
+    /*font-family: 'HelveticaNeue-Bold';*/
+    color: #000;
+}
+
+.plusreview-container .summary_new .score-container .average .star {
+    font-size: 16px;
+}
+
+.plusreview-container .summary_new .score-container .counter {
+    display: table-cell;
+    width: 208px;
+    height: 188px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.plusreview-container .summary_new .score-container .counter > div {
+    position: relative;
+    padding: 12px 0;
+}
+.plusreview-container .summary_new .score-container .counter .title {
+    color: #808080;
+}
+.plusreview-container .summary_new .score-container .counter .content {
+    position: absolute;
+    top: 12px;
+    right: 56px;
+    color: #333;
+}
+

@@ -1,5 +1,5 @@
 import React from "react";
-import '../../../css/Product/ProductTable.css';
+// import '../../../css/Product/ProductTable.css';
 import '../../../css/Context/ProductImage.css'
 import SoapDB from "../../Product/Context/SoapDB"
 import {Link} from "react-router-dom";
@@ -20,13 +20,6 @@ class ProductImage extends React.Component {
 
     };
 
-    mouseEntered = () => {
-        this.setState({isHover: true})
-    };
-
-    mouseLeaved = () => {
-        this.setState({isHover: false})
-    };
 
     // HeartOnClick = () => {
     //     alert('로그인하셔야 본 서비스를 이용하실 수 있습니다.\n(근데 로그인을 미구현)')
@@ -38,23 +31,35 @@ class ProductImage extends React.Component {
 
     NullPage = () => {
         if (!SoapDB[this.props.id]['real']) {
-            alert('미구현')
+            // alert('미구현')
         }
+    }
+
+    shouldComponentUpdate(nextProps, nextState, nextContext) {
+        return JSON.stringify(nextProps) !== JSON.stringify(this.props)
     }
 
     render() {
         return (
-            <li onMouseEnter={this.mouseEntered} onMouseLeave={this.mouseLeaved} onClick={this.NullPage} style={{width: '280px'}}>
+            <li onClick={this.NullPage}>
                 <div className={'space'}>
                     <div className={"box"}>
                         <div className={"thumbnail"}>
-
-                            <Link to={SoapDB[this.props.id]['real'] ? `/detail` : '/product'}>
+                            {this.props.drag ?
+                                <Link>
                                 <span className={'prdimg'}>
                                     <img src={`images/product/${this.props.id}.jpg`}
                                          alt={SoapDB[this.props.id]['name']}/>
                                 </span>
-                            </Link>
+                                </Link>
+                                :
+                                <Link to={SoapDB[this.props.id]['real'] ? `/detail` : '#'}>
+                                <span className={'prdimg'}>
+                                    <img src={`images/product/${this.props.id}.jpg`}
+                                         alt={SoapDB[this.props.id]['name']}/>
+                                </span>
+                                </Link>}
+
                             {/*{this.state.isHover ? <div id={"hoverfloat"}>*/}
                             {/*    <img src={'images/skin/btn_wish.png'} alt={'찜하기'} onClick={this.HeartOnClick}/>*/}
                             {/*    <img src={'images/skin/btn_cart.png'} alt={'장바구니'} onClick={this.CartOnClick}/>*/}
@@ -63,7 +68,7 @@ class ProductImage extends React.Component {
                         <div className={"prdinfo"}>
                             <div className={'conditions'}>
 
-                                {this.props.view ? '' :<span className={'hot'}>
+                                {this.props.view ? '' : <span className={'hot'}>
                                     {SoapDB[this.props.id]['real'] ?
                                         <img src={'images/skin/icon_realize.png'} alt={'구현'}/> : null}
                                     {SoapDB[this.props.id]['isnew'] ?

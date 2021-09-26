@@ -1,6 +1,7 @@
 import React from "react";
 import '../../../css/Context/Review.css'
 import $ from 'jquery';
+import * as _ from 'underscore'
 
 
 class FloatingReview extends React.Component {
@@ -14,6 +15,7 @@ class FloatingReview extends React.Component {
             isMouseDown: false,
             startX: '0',
         }
+        this.handleInputThrottled = _.throttle(this.DragMove, 20)
     }
 
     moveToLeftImage = () => {
@@ -42,8 +44,6 @@ class FloatingReview extends React.Component {
                 this.setState({curReview: 6, deactive: true})
             }, 500)
         } else {
-            console.log(this.state.deactive);
-
             if (this.state.deactive) {
                 document.getElementsByClassName('bx-slider')[0].style.transform = `translate3d(-${this.state.curReview * 280}px,0,0)`;
                 setTimeout(() => this.setState({deactive: false}), 500)
@@ -62,8 +62,7 @@ class FloatingReview extends React.Component {
         x = x[0].replace('translate3d(', '').replace('px', '')
         // let x = e.target.parentElement.parentElement.style.transform.substr(12, 4);
         x = parseInt(x);
-        console.log(x);
-
+        document.getElementsByClassName('bx-slider')[0].style.transitionDuration = ''
         this.setState({
             isMouseDown: true,
             startX: x - e.clientX
@@ -78,10 +77,15 @@ class FloatingReview extends React.Component {
             })
             let x = e.target.parentElement.parentElement.style.transform.split(',');
             x = x[0].replace('translate3d(', '').replace('px', '')
-            console.log((this.state.startX + e.pageX) / 240);
+            console.log((this.state.startX + e.pageX) / 280);
 
-            if (this.state.curReview < -(this.state.startX + e.pageX) / 240) {
+
+            if (this.state.curReview < -(this.state.startX + e.pageX) / 280) {
                 this.moveToRightImage()
+            } else if (this.state.curReview === -(this.state.startX + e.pageX) / 280) {
+
+            } else if (isNaN((this.state.startX + e.pageX) / 280)) {
+
             } else {
                 this.moveToLeftImage()
             }
@@ -101,7 +105,7 @@ class FloatingReview extends React.Component {
             e.target.parentElement.parentElement.style.transform =
                 `translate3d(${this.state.startX + e.pageX}px, 0px, 0px)`;
 
-            console.log(-x, this.state.startX + e.pageX)
+            // console.log(-x, this.state.startX + e.pageX)
         }
 
 
@@ -138,7 +142,7 @@ class FloatingReview extends React.Component {
                 <div className={'bx-wrapper'}>
                     <div className={'bx-viewport'}>
                         <div className={'bx-slider'} onMouseDown={this.onDragStart} onMouseUp={this.onDragEnd}
-                             onMouseMove={this.DragMove} onMouseLeave={this.onDragEnd}>
+                             onMouseMove={this.handleInputThrottled} onMouseLeave={this.onDragEnd}>
                             <div className={'bx-slide'}>
                                 <img src={"images/ReviewImages/MaskOfMagnaminty.jpg"}/>
                             </div>

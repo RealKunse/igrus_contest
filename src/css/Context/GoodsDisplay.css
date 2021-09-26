@@ -28,8 +28,8 @@
 .bestseller_bxslider {
     width: 2000%;
     position: relative;
-    transition-duration: 0.5s;
-    transform: translate3d(0px, 0px, 0px);
+    /*transition-duration: 0.5s;*/
+    transform: translate3d(-900px, 0px, 0px);
 }
 
 .bx-wrapper_ > .bx-viewport {
